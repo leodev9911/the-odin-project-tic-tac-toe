@@ -1,0 +1,30 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.score-board {
+    display: flex;
+    gap: 20px;
+}
+
+.score-board > div {
+    display: flex;
+    flex-direction: column;
+
+    justify-content: center;
+    align-items: center;
+}
+
+.gameboard-container {
+    display: grid;
+    grid-template-columns: repeat(3, 40px);
+    grid-template-rows: repeat(3, 40px);
+}
+
+.gameboard-container > div {
+    display: grid;
+    place-items: center;
+    border: 1px solid black;
+}
