@@ -17,6 +17,14 @@
     align-items: center;
 }
 
+.disabled {
+    display: none;
+}
+
+.turn {
+    color: blue;
+}
+
 .gameboard-container {
     display: grid;
     grid-template-columns: repeat(3, 40px);
